@@ -1,0 +1,25 @@
+const mongoose = require('mongoose');
+
+const userSchema = mongoose.Schema({
+  pseudo: {
+    type: String,
+    required: true,
+    trim: true
+  },
+  email: {
+    type: String,
+    required: true,
+    unique: true,
+    trim: true
+  },
+  motDePasse: {
+    type: String,
+    required: true
+  },
+  isAdmin: {
+    type: Boolean,
+    default: false
+  }
+});
+
+module.exports = mongoose.model('User', userSchema);
