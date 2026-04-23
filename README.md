@@ -8,7 +8,7 @@
 git clone <url-du-repo>
 cd Projet-MERN-Profils
 ```
-###2. Installation du backend
+### 2. Installation du backend
 ```
 cd backend
 npm install
@@ -20,7 +20,7 @@ npm run dev
 **Le backend démarre sur :**
 http://localhost:3000
 
-###3. Installation du frontend
+### 3. Installation du frontend
 ```
 cd frontend
 npm install
@@ -33,7 +33,7 @@ npm start
 **Le frontend démarre généralement sur :**
 http://localhost:3001
 
-###4. Configuration MongoDB
+### 4. Configuration MongoDB
 Le projet utilise MongoDB Atlas.
 
 Étapes
@@ -96,7 +96,7 @@ Dans ce cas modifier :
 frontend/src/services/api.js
 ```
 
-###Routes API
+### Routes API
 **Routes publiques**
 ```
 POST /profils → créer un utilisateur
@@ -112,7 +112,7 @@ PUT /profils/:id → modifier profil
 DELETE /profils/:id → (admin)
 ```
 
-###Exemples curl
+### Exemples curl
 **Créer un utilisateur**
 ```
 curl -X POST http://localhost:3000/profils \
@@ -165,7 +165,7 @@ curl -X DELETE http://localhost:3000/profils/USER_ID \
 -H "Authorization: Bearer TOKEN"
 ```
 
-###Gestion des rôles
+### Gestion des rôles
 **Utilisateur (USER)**
 ```
 consulter son profil
