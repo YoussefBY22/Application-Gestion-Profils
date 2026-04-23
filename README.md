@@ -51,7 +51,7 @@ MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster.mongodb.net/projet-profils?ret
 JWT_SECRET=secret123
 ```
 
-**Utilisation du projet avec un autre compte MongoDB**
+### 5. Utilisation du projet avec un autre compte MongoDB**
 Si une autre personne souhaite utiliser ce projet, elle doit :
 
 **Étapes à suivre**
@@ -96,7 +96,7 @@ Dans ce cas modifier :
 frontend/src/services/api.js
 ```
 
-### Routes API
+### 5. Routes API
 **Routes publiques**
 ```
 POST /profils → créer un utilisateur
@@ -112,7 +112,7 @@ PUT /profils/:id → modifier profil
 DELETE /profils/:id → (admin)
 ```
 
-### Exemples curl
+### 6. Exemples curl
 **Créer un utilisateur**
 ```
 curl -X POST http://localhost:3000/profils \
@@ -165,7 +165,7 @@ curl -X DELETE http://localhost:3000/profils/USER_ID \
 -H "Authorization: Bearer TOKEN"
 ```
 
-### Gestion des rôles
+### 6. Gestion des rôles
 **Utilisateur (USER)**
 ```
 consulter son profil
