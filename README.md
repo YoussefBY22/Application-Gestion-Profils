@@ -92,4 +92,46 @@ Projet-MERN-Profils/
 └── README.md
 ```
 
+Installation du projet
+1. Cloner ou récupérer le projet
+
+Placez-vous dans le dossier du projet.
+2. Installation du backend
+
+Ouvrir un terminal dans le dossier backend :
+cd backend
+npm install
+
+Lancer le backend
+npm run dev
+
+Le backend démarre sur :
+http://localhost:3000
+
+3. Installation du frontend
+Ouvrir un deuxième terminal dans le dossier frontend :
+cd frontend
+npm install
+
+Lancer le frontend
+npm start
+
+Le frontend démarre sur :
+http://localhost:3001
+car le port 3000 est déjà utilisé par le backend.
+
+Configuration MongoDB
+
+Le projet utilise MongoDB Atlas.
+
+Étapes générales
+Créer un compte MongoDB Atlas
+Créer un projet
+Créer un cluster gratuit
+Créer un utilisateur de base de données
+Autoriser l’accès réseau
+Récupérer la chaîne de connexion
+Mettre à jour le fichier .env
+
+
 
