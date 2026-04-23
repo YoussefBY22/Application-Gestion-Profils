@@ -1,0 +1,72 @@
+@import './colors.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--blue-light);
+  color: var(--blue-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.card {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(11, 17, 58, 0.1);
+}
+
+.title {
+  color: var(--blue-dark);
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: var(--blue-main);
+  color: var(--white);
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-danger {
+  background: var(--orange-red);
+  color: var(--white);
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-success {
+  background: var(--green-light);
+  color: var(--white);
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  border: 1px solid var(--blue-main);
+  border-radius: 6px;
+}
+
+label {
+  font-weight: bold;
+}
